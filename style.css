@@ -1,0 +1,301 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  #first-page
+  {
+    background-image: url("personal.jpg");
+    background-repeat: no-repeat;
+  
+  }
+  .container
+  {
+    margin-left: 350px;
+    border-style: solid;
+    box-shadow: 8px 8px 8px 8px;
+    border-width: 3px;
+    width: 50%;
+    border-color: black;
+    height: 100%;
+    
+  } 
+  #content
+  {
+    display: none;
+  }
+  .bigbutton-align
+  {
+    display: inline;
+    position: relative;
+    margin-left: 500px;
+  }
+  h1{
+    font-family: "montserrat";
+    text-align: center;
+      margin-top: 10px
+     
+     
+  }
+  h2
+  {
+    text-align: center;
+    font-family: "montserrat";
+
+  }
+  input[type=text], input[type=number],input[type=password]
+   {
+    widows: 30%;
+    font-size: 20px;
+     padding: 15px; 
+     border-radius: 30px;
+    /* margin: 5px 0 22px 0; */
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=number]
+   {
+    width: 20%;
+     padding: 15px; 
+    /* margin: 5px 0 22px 0; */
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+  input[type=text]:focus, input[type=number]:focus ,input[type=password]:focus
+  {
+    background-color: #ddd;
+    outline: none;
+  }
+   .align-box
+  {
+    display: inline;
+    position: relative;
+      margin-left:210px;
+  } 
+  .align-box1
+  {
+    display: inline;
+    position: relative;
+    margin-left: 30px;
+  }
+  .align-box2
+  {
+    display: inline;
+    position: absolute;
+    
+  }
+  .align-box3
+  {
+    display: inline;
+    position: absolute;
+    margin-left: 40px;
+    
+  }
+  .align-date-box
+  {
+      margin-left:190px;
+  }
+  .button-align
+  {
+    position: relative;
+    display: inline;
+    margin-left: 70px;
+  }
+  .button-align1
+  {
+    position: absolute;
+    display: inline;
+    margin-left: 280px;
+  }
+  
+
+   .myButton 
+   {
+
+	background-color:#0ef04a;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:25px;
+	padding:10px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#000000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+} 
+.file-upload
+{
+  display: inline;
+ margin-left: 530px;
+ font-size: 20px;
+ padding: 10px;
+ 
+}
+.file {
+  margin-left: 480px;
+  width: 400px;
+  height: 300px;
+  background:white;
+  padding: 0;
+  border: 5px dashed #333;
+  position: relative;
+  cursor: pointer;
+}
+
+.file::before {
+  content: '';
+  position: absolute;
+  background: #171717;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.file::after {
+  content: 'Drag & Drop';
+  position: absolute;
+  color: #808080;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.container2
+{
+  background-image: url("background-image.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 140%;
+}
+.image-head
+{
+ 
+
+  font-size: 50px;
+  color: black;
+  font-family: "montserrat";
+  text-align: center;
+  display: inline;
+  margin-left: 430px;
+
+
+}
+.image-head2
+{
+  font-size: 50px;
+  color: black;
+  font-family: "montserrat";
+  text-align: center;
+}
+.uploaded-image
+{
+  margin-left: 600px;
+  width:100px;
+  height:100px;
+}
+.button-align3
+{
+  margin-left: 590px;
+}
+.container-3
+{
+  background-image: url("username.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 140%;
+
+}
+.Username
+{
+  position: relative;
+  margin-top: 50px;
+}
+#username
+{
+  margin-left: 530px;
+}
+.button-align-4
+{
+  display: inline;
+  
+  margin-top: 20px;
+  margin-left: 600px;
+}
+#Email
+{
+  margin-left: 530px;
+}
+#password
+{
+  margin-left: 530px;
+}
+#repassword
+{
+  margin-left: 530px;
+}
+.container-4
+{
+  background-image: url("verification.jpg");
+  background-repeat: no-repeat;
+  
+  width: 100%;
+  height: 100%;
+}
+.main
+{
+  
+  font-family: "montserrat";
+  display: inline;
+  margin-left: 50px;
+  font-size: 25px;
+  color: black;
+}
+#common
+{
+  font-family: "montserrat";
+  font-size: 15px;
+  color: black;
+
+
+}
+.Thanks
+{
+  display:inline;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 120px;
+  text-align: center;
+  font-size:70px;
+  color: black;
+
+}
+#content2
+{
+  display: none;
+}
+#content-3
+{
+  display: none;
+}
+#content-last
+{
+  display: none;
+}
+#content-0
+{
+  display: none;
+}
+

@@ -1,0 +1,261 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>    
+    <section id="first-page">
+        <div class="bigbutton-align"id = 'switch'>
+
+        <input class="myButton" type="button" value="Click Here to Start filling form" id="bt5" onclick="toggle4(this)"></input>
+        </div>
+        <div class="button-container" id ="content-0">
+
+         <div class="button-align">
+
+            <input class="myButton" type="button" value="Personal Info" id="bt" onclick="toggle(this)"></input>
+        
+        </div>
+
+        <div class="button-align">
+            
+            <input class="myButton" type="button" value="Upload Image" id="bt2" onclick="toggle1(this)"></input>
+                 
+        </div>   
+                 
+        <div class="button-align">
+                    
+            <input class="myButton" type="button" value="Create-Username" id="bt3" onclick="toggle2(this)"></input>
+                
+        </div> 
+                
+        <div class="button-align">
+                    
+            <input class="myButton" type="button" value="Thankyou-Page" id="bt4" onclick="toggle3(this)"></input>
+                
+        </div> 
+        
+    </div>
+    
+        <div class="container" id="content">
+    
+            <form>
+    
+        <h1> Personal Information</h1>
+        
+    
+        <h2>First name&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Last-name</h2>
+    
+        <div class="align-box1">
+    
+            <input type="text" id="text1"placeholder="First-name" required></input>
+    
+        </div>
+    
+        &emsp;&emsp;&emsp;&emsp;
+    
+        <div class="align-box2">
+    
+            <input type="text" id="text2"placeholder="Last-name" required></input>
+  
+        </div>
+  
+        <label for="birthdate"><h2>birthdate</h2></label>
+  
+        <div class="align-date-box">
+  
+            <input type="number" placeholder="day" id="day"required></input>
+  
+            <span>/</span> 
+  
+            <input type="number" placeholder="month" id="month" required></input>
+  
+            <span>/</span> 
+  
+            <input type="number" placeholder="year" id="year" required></input>
+  
+        </div>
+  
+        <h2>Gender&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Age(in words)</h2>
+  
+        <div class="align-box1">
+  
+            <input type="text" id="text3"placeholder="Gender" required></input>
+  
+        </div>
+  
+        &emsp;&emsp;&emsp;&emsp;
+  
+        <div class="align-box2">
+  
+            <input type="text" id="text4"placeholder="Age" required></input>
+  
+        </div>
+  
+        <label for="Country-name"><h2>Country-name</h2></label>
+ 
+        <div class="align-box">
+ 
+            <input type="text" id="text5"placeholder="Country-name" required></input>
+ 
+            <br>
+ 
+        </div>
+ 
+        <br>
+ 
+        <div class="button-align1">
+ 
+            <button class="myButton save" type="button">Save</button>
+ 
+        </div>        
+
+  
+    </form>
+
+</div>
+
+</section>
+
+
+
+
+
+
+
+<section id="upload-image">
+
+    <div class="container2" id ="content2">
+
+        <br>
+
+        <br>
+
+        <br>
+
+
+        <h1 class="image-head"> Upload your image ....</h1>
+
+        <input class="file-upload" type="file" id="myFile" name="filename"></input>
+
+        <h2 class="image-head2">
+         OR
+
+        </h2>
+
+
+
+    
+     <div>
+
+
+        <input type="file" name="file" id="file" class="file">
+
+
+        <h1 id="value"></h1>
+
+        <img src="" class="uploaded-image"></img>
+      
+    </div>
+    
+    <div class="button-align3">
+    
+
+        <button class="myButton up-image" type="button">Save</button>
+
+    </div>  
+
+</div> 
+
+</section>
+
+<section id ="Create-Username">
+
+    <div class="container-3" id ="content-3">
+
+        <h1 class="image-head">Wrapping up with ....</h1>
+
+        <h1 class="Username">Create Username</h1>
+
+        <input type="text" id="username" placeholder="Username-here" required></input>
+
+        <h1 class="Username">Email</h1>
+
+        <input type="text" id="Email" placeholder="Email" required></input>
+
+        <h1 class="Username">Password</h1>
+
+        <input type="password" id="password" placeholder="Password" required></input>
+
+        <h1 class="Username">Re-enter Password</h1>
+
+        <input type="password" id="repassword" placeholder="Re-enter Password" required></input>
+
+        <br><br><br>
+
+        <div class="button-align-4">
+
+            <button class="myButton username1" type="submit">Save</button>
+
+        </div>   
+
+
+    
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<section id="Thankyou-Page">
+
+    <div class="container-4" id="content-last">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+        <h1 class="Thanks">Thanks for registering with us....</h1>
+        <!-- <h1 class="main">Name :</h1><h3 class="sub"  id ="common"></h3>
+        <h1 class="main">Date Of Birth :</h1><h3 class="sub2"  id ="common"></h3>
+        <h1 class="main">Age :</h1><h3 class="sub3"  id ="common"></h3>
+        <h1 class="main">Gender :</h1><h3 class="sub4"  id ="common"></h3>
+        <h1 class="main">Country :</h1><h3 class="sub5"  id ="common"></h3>
+        <h1 class="main">Username :</h1><h3 class="sub6"  id ="common"></h3>
+        <h1 class="main">Email :</h1><h3 class="sub7"  id ="common"></h3>
+        <h1 class="main">Password :</h1><h3 class="sub8" id ="common"></h3> -->
+
+        <!-- <div class="button-align-4">
+
+            <button class="myButton verify" id="verify">Verify Your Details</button>
+
+        </div>   -->
+        
+
+
+
+    </div>
+
+</section>
+
+
+<script src="script.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
+</body>
+
+</html>
